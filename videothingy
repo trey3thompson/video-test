@@ -1,10 +1,34 @@
-<!DOCTYPE html>
-<html>
-<body>
-<video width="400" controls>
-  <source src="mov_bbb.mp4" type="video/mp4">
-  <source src="mov_bbb.ogg" type="video/ogg">
+<!DOCTYPE html> 
+<html> 
+<body> 
+<img src="https://pbs.twimg.com/media/FELNkhNUUAI_xDq.jpg" width="33%">
+<video width="400" autoplay>
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML video.
 </video>
-</body>
+<video width="400" controls>
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<form action="mailto:wthompson@student.antilles.vi" method="post" enctype="text/plain">
+<h1>Feedback</h1>
+ <label for="name">Name:</label>
+ <input type="name" id="name" name="name" value=""><br><br>
+
+ <label for="email">Email:</label>
+ <input type="name" id="email" name="email" value="">
+
+<p>Choose your favorite piece of media:</p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Image</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Video 1</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Video 2</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+<br><br><br><br><br><br>
+</body> 
 </html>
